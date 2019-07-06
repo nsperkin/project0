@@ -1,0 +1,47 @@
+$font-stack: Helvetica, sans-serif
+$first-color: #333
+
+#corgi{
+	background-color:blue;
+}
+
+#samoyed{
+	background-color:purple;
+}
+
+#aussie{
+	background-color:teal;
+}
+
+#bichon{
+	background-color:green;
+}
+
+
+.jumbotron{
+	background-color:#2E2D88;
+	color:white;
+	white-space:nowrap;
+	text-align:center;
+	margin-top: 20px
+}
+
+img {
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+p {
+	top-padding:100px;
+	font:$font-stack;
+}
+
+table, td, th {
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+td, th {
+	padding:15px;
+}
